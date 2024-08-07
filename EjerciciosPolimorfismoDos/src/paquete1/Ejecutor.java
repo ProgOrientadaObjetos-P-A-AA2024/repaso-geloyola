@@ -53,6 +53,6 @@ public class Ejecutor {
             System.out.println();
         }
         
-        
+        //sobreescritura de metodos(toUpperCase esta en locacl comercial
     }
 }

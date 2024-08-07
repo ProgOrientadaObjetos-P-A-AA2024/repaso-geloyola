@@ -44,6 +44,8 @@ public class Ejecutor {
         centro.establecerTotalArriendosBaseMensual();
         centro.establecerTotalArriendosFinalMensual();
         System.out.println(centro);//aqui estopy llamando al metodo toString -importante-
+        
+        //revisar la escritura de metodos
     
     }
 }
