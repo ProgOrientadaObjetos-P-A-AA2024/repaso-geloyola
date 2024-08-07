@@ -29,7 +29,7 @@ public abstract class Arriendo {
         cuotaBase = x;
     }
     
-    public abstract void establecerArriendoMensual();
+    public abstract void establecerArriendoMensual();//no tiene cuerpo o llaves
     
     public String obtenerNombreArrendatario(){
         return nombreArrendatario;

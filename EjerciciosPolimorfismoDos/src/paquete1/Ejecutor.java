@@ -40,11 +40,13 @@ public class Ejecutor {
         arriendoSesiones.establecerValorSillas(10); // en $
         arriendoSesiones.establecerValorAmplificacion(20); // en $
         
-        listaArriendos.add(arriendoComida);
-        listaArriendos.add(arriendoComercial);
-        listaArriendos.add(arriendoSesiones);
+        listaArriendos.add(arriendoComida);//se agrega los objetos que creamos al arraylist
+        listaArriendos.add(arriendoComercial);//se agrega los objetos que creamos al arraylist
+        listaArriendos.add(arriendoSesiones);//se agrega los objetos que creamos al arraylist
         
-        for (int i = 0; i < listaArriendos.size(); i++) {
+        //
+        
+        for (int i = 0; i < listaArriendos.size(); i++) { // el .size es para saber el numero de elementos que hay dentro del arraylist
             listaArriendos.get(i).establecerArriendoMensual(); // se llama al 
                                                             // métodos abstracto
             System.out.println(listaArriendos.get(i));

@@ -72,7 +72,7 @@ public class CentroComercial {
             cadena = String.format("%s"
                     + "%s\n",
                     cadena,
-                    obtenerArriendos().get(i));
+                    obtenerArriendos().get(i));//se llama al metodo toString de la clase que este en esa posicion
         }
 
         cadena = String.format("\n%sTotal Arriendos base Mensual: %.2f\n"
